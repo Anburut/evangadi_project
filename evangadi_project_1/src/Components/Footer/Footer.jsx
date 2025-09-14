@@ -23,25 +23,31 @@ const Footer = () => {
 
         {/* Footer Links */}
         <div className="footer_links">
-          <ul>
-            <li>Audio Description</li>
-            <li>Legal Notice</li>
-            <li>Investor Relations</li>
-          </ul>
-          <ul>
-            <li>Help Center</li>
-            <li>Media Center</li>
-            <li>Jobs</li>
-          </ul>
-          <ul>
-            <li>Terms of Use</li>
-            <li>Cookie Preferences</li>
-            <li>Contact Us</li>
-          </ul>
+          <div className="footer_column">
+            <ul>
+              <li>Audio Description</li>
+              <li>Legal Notice</li>
+              <li>Investor Relations</li>
+            </ul>
+          </div>
+          <div className="footer_column">
+            <ul>
+              <li>Help Center</li>
+              <li>Media Center</li>
+              <li>Jobs</li>
+            </ul>
+          </div>
+          <div className="footer_column">
+            <ul>
+              <li>Terms of Use</li>
+              <li>Cookie Preferences</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
         </div>
 
         <p className="footer_copyright">
-          &copy; {new Date().getFullYear()} YourCompany. All rights reserved.
+          &copy; {new Date().getFullYear()} Nextflix. All rights reserved.
         </p>
       </div>
     </footer>
