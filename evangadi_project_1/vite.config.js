@@ -1,8 +1,7 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// Replace <your-repo-name> with your GitHub repo name
 export default defineConfig({
-  base: "/evangadi_project",
+  base: '/evangadi_project/',  // Note: Added trailing slash for consistency
   plugins: [react()],
 });
